@@ -1,0 +1,9 @@
+.TitleInput {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 375px;
+    outline: none;
+    padding: 20px 50px 0px 0px;
+    font-style: italic;
+}

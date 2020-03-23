@@ -1,0 +1,52 @@
+.AnswersInput {
+    text-align: left;
+}
+
+.AnswersInput.Green {
+    background-color: lightgreen;
+    opacity: 75%;
+    border-radius: 100px;
+}
+
+.AnswerText {
+    display: inline-block;
+}
+
+.Radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: lightgrey;
+    color: #666;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+
+.Radio:checked::before {
+    position: absolute;
+    font: 13px/1 'Open Sans', sans-serif;
+    left: 11px;
+    top: 7px;
+    content: '\02143';
+    transform: rotate(40deg);
+}
+
+.Radio:hover {
+    background-color: lightblue;
+}
+
+.Radio:checked {
+    background-color: lightgrey;
+}
+
+.Radio:disabled {
+    background-color: lightskyblue;
+}

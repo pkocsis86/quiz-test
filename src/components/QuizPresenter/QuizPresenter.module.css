@@ -1,0 +1,35 @@
+.QuizPresenter {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid white;
+    box-shadow: 0px 1px 5px black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .QuizPresenter {
+        width: 450px;
+    }
+}
+
+.Answer {
+    padding-left: 10px;
+    text-align: left;
+    height: 24px;
+    border-radius: 12px;
+    opacity: 75%;
+    font-size: 16px;
+}
+
+.Answer.Right {
+    background-color: lightgreen;
+}
+
+.Answer.Wrong {
+    background-color: lightsalmon;
+}
+
+.PresenterTitle {
+    font-size: large;
+}

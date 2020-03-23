@@ -1,0 +1,28 @@
+.GamePresenter {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid white;
+    box-shadow: 0px 1px 5px black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .GamePresenter {
+        width: 450px;
+    }
+}
+
+.PresenterTitle {
+    display: block;
+    font-size: large;
+    padding-bottom: 30px;
+}
+
+.SubmitArea {
+    padding-top: 30px;
+}
+
+.SubmitAreaEmpty {
+    padding-top: 70px;
+}

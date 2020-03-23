@@ -1,0 +1,25 @@
+.PlayerMenu {
+    text-align: center;
+}
+
+.NameTitle {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
+
+.NameInput {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 375px;
+    outline: none;
+    padding: 20px 50px 0px 0px;
+    font-style: italic;
+}
+
+.SubmitArea {
+    padding-top: 50px;
+}

@@ -1,0 +1,16 @@
+.MainMenu {
+    text-align: center;
+}
+
+.MainArea {
+    padding-top: 40px;
+}
+
+.MainTitle {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: xx-large;
+}

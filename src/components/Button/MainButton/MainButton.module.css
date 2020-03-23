@@ -1,0 +1,17 @@
+.MainArea {
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+.MainButton {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+}
